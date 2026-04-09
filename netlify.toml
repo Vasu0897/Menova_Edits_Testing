@@ -1,0 +1,9 @@
+[build]
+  base = "Menova_Edits_Testing"
+  command = "pnpm run build"
+  publish = "Menova_Edits_Testing/dist/public"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
